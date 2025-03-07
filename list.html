@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create New</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <div class="container">
+        <h2>Welcome ABC Sdn Bhd</h2>
+        
+         
+          <main class="col-9 card p-5 text-center">
+            <h2 class="mb-3">Invoice List</h2>
+            <table class="table table-bordered table-striped table-hover" id="invoice_table">
+                <thead>
+                <tr >
+                    <th class="bg-danger text-light">Date</th>
+                    <th class="bg-danger text-light">Invoice No</th>
+                    <th class="bg-danger text-light">Currency</th>
+                    <th class="bg-danger text-light">Amount</th>
+                    <th class="bg-danger text-light">Remarks</th>
+                    <th class="bg-danger text-light">Action</th>
+                </tr>
+            </thead>
+            <tbody id="invoice_tbody">
+                <!-- <tr>
+                    <td>06-03-2025</td>
+                    <td>IV-001</td>
+                    <td>USD</td>
+                    <td>1000</td>
+                    <td>This is remark</td>
+                    <td>
+                        <button class="btn btn-primary">View</button>
+                        <button class="btn btn-secondary">Edit</button>
+                        <button class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                 -->
+            </tbody>
+            </table>
+          
+        </main>
+        <button onclick="addRow()">Add Row</button>
+        <button onclick="saveData()">Save</button>
+        
+      
+    </div>
+
+    <script src="list.js"</script>
+    
+    <script>="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    
+      </script>
+  </body>
+</html>
